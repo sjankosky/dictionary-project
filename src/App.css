@@ -1,0 +1,12 @@
+.App-header {
+  color: blue;
+  font-size: 50px;
+  font-style: oblique;
+  margin: 0 auto;
+}
+
+.img-ocean {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
