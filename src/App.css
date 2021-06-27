@@ -1,6 +1,7 @@
 body {
   background: #66d8f2;
   background-image: url("./ocean.jpg");
+  background-repeat: round space;
 }
 
 .App-header {
@@ -9,8 +10,7 @@ body {
   font-style: oblique;
   text-align: center;
   font-family: "Roboto";
-  /* margin: 0 auto;
-  display: block; */
+  text-shadow: 0 0 12px #fff;
 }
 
 /* .img-ocean {
