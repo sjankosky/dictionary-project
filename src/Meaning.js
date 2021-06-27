@@ -16,6 +16,7 @@ export default function Meaning(props) {
               <strong>Definition: </strong>
               {definition.definition}
               <br />
+              {/* Think of creating new file for if statement to bring in example (that way line won't show if there's no example for word, like hot dog) */}
               <strong>Example: </strong>
               <em>{definition.example}</em>
               <br />
