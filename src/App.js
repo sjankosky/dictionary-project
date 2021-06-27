@@ -1,4 +1,3 @@
-import ocean from "./ocean.jpg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -8,7 +7,6 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <strong>Explore</strong>
-          {/* <img src={ocean} className="img-ocean" alt="ocean" /> */}
         </header>
         <main>
           <Dictionary />
