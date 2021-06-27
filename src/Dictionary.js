@@ -8,14 +8,14 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions[0].definition);
-    console.log(response.data[0].meanings[0].definitions[0].synonyms);
+    // console.log(response.data[0].meanings[0].definitions[0].definition);
+    // console.log(response.data[0].meanings[0].definitions[0].synonyms);
     setResults(response.data[0]);
   }
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword}`);
+    // alert(`Searching for ${keyword}`);
 
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;

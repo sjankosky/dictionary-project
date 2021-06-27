@@ -11,7 +11,8 @@
   margin: 0 auto;
 }
 
-.App-footer {
+.App footer {
   text-align: center;
   margin: 30px o;
+  font-size: 12px;
 }
