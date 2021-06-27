@@ -6,7 +6,12 @@
 }
 
 .img-ocean {
-  max-width: 700px;
+  max-width: 500px;
   display: block;
   margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px o;
 }
