@@ -2,7 +2,10 @@ body {
   background: #66d8f2;
   background-image: url("./ocean.jpg");
   background-size: cover;
-  background-repeat: round space;
+  /* background-repeat: round space; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-header {
