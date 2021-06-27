@@ -1,5 +1,6 @@
 import React from "react";
-import Synonyms from "./Synonyms"
+import Synonyms from "./Synonyms";
+import "./Meaning.css";
 
 export default function Meaning(props) {
   console.log(props.meaning);
@@ -10,19 +11,17 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            {/* <div className="definition">{definition.definition}</div>
-            <div className="definition">{definition.example}</div> */}
-            <p>
-              <strong>Definition: </strong>
+            <div className="definition">
+              {/* <strong>Definition: </strong> */}
               {definition.definition}
-              <br />
-              {/* Think of creating new file for if statement to bring in example (that way line won't show if there's no example for word, like hot dog) */}
-              <strong>Example: </strong>
-              <em>{definition.example}</em>
-              <br />
+            </div>
+            <div className="example">
+              {/* <strong>Example: </strong> */}
+              {definition.example}
+            </div>
+            {/* Think of creating new file for if statement to bring in example (that way line won't show if there's no example for word, like hot dog) */}
+            <br />
             <Synonyms synonyms={definition.synonyms} />
-            {/* //   {definition.synonyms} */}
-            </p>
           </div>
         );
       })}

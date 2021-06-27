@@ -1,18 +1,32 @@
-.App-header {
-  color: blue;
-  font-size: 50px;
-  font-style: oblique;
-  margin: 0 auto;
+body {
+  background: #66d8f2;
+  background-image: url("./ocean.jpg");
 }
 
-.img-ocean {
-  max-width: 500px;
+.App-header {
+  color: blue;
+  font-size: 80px;
+  font-style: oblique;
+  text-align: center;
+  font-family: "Roboto";
+  /* margin: 0 auto;
+  display: block; */
+}
+
+/* .img-ocean {
+  max-width: 200px;
   display: block;
   margin: 0 auto;
-}
+} */
 
 .App footer {
   text-align: center;
   margin: 30px o;
   font-size: 12px;
+  background: #66d8f2;
+  border-radius: 6px;
 }
+
+/* .container {
+  background: #66D8F2;
+} */
