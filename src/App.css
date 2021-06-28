@@ -31,6 +31,7 @@ body {
   border-radius: 6px;
 }
 
-/* .container {
-  background: #66D8F2;
-} */
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
